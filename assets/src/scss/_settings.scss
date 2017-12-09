@@ -123,9 +123,9 @@ $grid-column-gutter: (
         small: 20px,
         medium: 50px,
 );
-// $grid-column-align-edge: true;
-// $grid-column-alias: 'columns';
-// $block-grid-max: 8;
+ $grid-column-align-edge: true;
+ $grid-column-alias: 'columns';
+ $block-grid-max: 8;
 
 // 4. Base Typography
 // ------------------
@@ -137,24 +137,24 @@ $grid-column-gutter: (
 // $header-color: inherit;
 // $header-lineheight: 1.4;
 // $header-margin-bottom: 0.5rem;
-$header-styles: (
-       small: (
-               'h1': ('font-size': 24),
-               'h2': ('font-size': 20),
-               'h3': ('font-size': 19),
-               'h4': ('font-size': 18),
-               'h5': ('font-size': 17),
-               'h6': ('font-size': 16),
-       ),
-       medium: (
-               'h1': ('font-size': 48),
-               'h2': ('font-size': 40),
-               'h3': ('font-size': 31),
-               'h4': ('font-size': 25),
-               'h5': ('font-size': 20),
-               'h6': ('font-size': 16),
-       ),
-);
+//$header-styles: (
+//       small: (
+//               'h1': ('font-size': 24),
+//               'h2': ('font-size': 20),
+//               'h3': ('font-size': 19),
+//               'h4': ('font-size': 18),
+//               'h5': ('font-size': 17),
+//               'h6': ('font-size': 16),
+//       ),
+//       medium: (
+//               'h1': ('font-size': 48),
+//               'h2': ('font-size': 40),
+//               'h3': ('font-size': 31),
+//               'h4': ('font-size': 25),
+//               'h5': ('font-size': 20),
+//               'h6': ('font-size': 16),
+//       ),
+//);
 // $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 // $header-small-font-color: $medium-gray;
@@ -370,17 +370,17 @@ $small-font-size: 80%;
 // 17. Dropdown
 // ------------
 
-$dropdown-padding: 1rem;
-$dropdown-background: $body-background;
-$dropdown-border: 1px solid $medium-gray;
-$dropdown-font-size: 1rem;
-$dropdown-width: 300px;
+//$dropdown-padding: 1rem;
+//$dropdown-background: $body-background;
+//$dropdown-border: 1px solid $medium-gray;
+//$dropdown-font-size: 1rem;
+//$dropdown-width: 300px;
 // $dropdown-radius: $global-radius;
-$dropdown-sizes: (
-       tiny: 100px,
-       small: 200px,
-       large: 400px,
-);
+//$dropdown-sizes: (
+//       tiny: 100px,
+//       small: 200px,
+//       large: 400px,
+//);
 
 // 18. Dropdown Menu
 // -----------------
@@ -819,13 +819,13 @@ $dropdown-menu-item-background-active: transparent;
 // // 53. Title Bar
 // // -------------
 
-$titlebar-background: $black;
-$titlebar-color: $white;
-$titlebar-padding: 0.5rem;
-$titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
-$titlebar-icon-spacing: 0.25rem;
+//$titlebar-background: $black;
+//$titlebar-color: $white;
+//$titlebar-padding: 0.5rem;
+//$titlebar-text-font-weight: bold;
+//$titlebar-icon-color: $white;
+//$titlebar-icon-color-hover: $medium-gray;
+//$titlebar-icon-spacing: 0.25rem;
 
 // // 54. Tooltip
 // // -----------
@@ -845,25 +845,25 @@ $titlebar-icon-spacing: 0.25rem;
 // // 55. Top Bar
 // // -----------
 
-$topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
-$topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
-$topbar-input-width: 200px;
-$topbar-unstack-breakpoint: medium;
+//$topbar-padding: 0.5rem;
+//$topbar-background: $light-gray;
+//$topbar-submenu-background: $topbar-background;
+//$topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
+//$topbar-input-width: 200px;
+//$topbar-unstack-breakpoint: medium;
 
 // // 56. Xy Grid
 // // -----------
 
-// $xy-grid: true;
-// $grid-container: $global-width;
-// $grid-columns: 12;
-// $grid-margin-gutters: (
-//        small: 20px,
-//        medium: 30px
-// );
-// $grid-padding-gutters: $grid-margin-gutters;
-// $grid-container-padding: $grid-padding-gutters;
-// $grid-container-max: $global-width;
-// $xy-block-grid-max: 8;
+ $xy-grid: true;
+ $grid-container: $global-width;
+ $grid-columns: 12;
+ $grid-margin-gutters: (
+        small: 20px,
+        medium: 30px
+ );
+ $grid-padding-gutters: $grid-margin-gutters;
+ $grid-container-padding: $grid-padding-gutters;
+ $grid-container-max: $global-width;
+ $xy-block-grid-max: 8;
 
