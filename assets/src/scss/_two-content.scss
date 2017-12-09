@@ -1,0 +1,25 @@
+.two-content {
+  &__row {
+    background-color: #f5f5f5;
+    @include flex-grid-row();
+    justify-content: space-around;
+  }
+  &__col {
+    min-height: 530px;
+    @include flex-grid-column(6);
+    @include description();
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  &__title {
+    border-bottom: solid 2px lightgray;
+    font-size: 30px;
+  }
+  &__button {
+    @include button;
+    @include button-section;
+  }
+}
